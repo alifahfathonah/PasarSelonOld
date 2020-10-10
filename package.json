@@ -1,0 +1,23 @@
+{
+  "name": "kisel-web",
+  "version": "1.0.0",
+  "description": "Kisel Ecommerce web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.nbs.co.id/kisel/kisel-web.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "pasar",
+    "selon",
+    "market",
+    "telkom"
+  ],
+  "author": "fauzan@nusantarabetastudio.com",
+  "license": "ISC",
+  "dependencies": {}
+}

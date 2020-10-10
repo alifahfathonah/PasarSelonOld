@@ -1,0 +1,427 @@
+.single-product .product-img {
+    max-width: none;
+}
+.nav>li>a {
+    padding: 0;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+    background: none !important;
+}
+.header-top-right ul li ul {
+    text-align: left;
+}
+.header-top-right ul li ul li a {
+    color: #333;
+    padding: 5px 20px;
+    margin: 0;
+}
+.tab-title {
+    border-top: none;
+}
+.tab-title h2 {
+    background: none;
+}
+.tab-title h2:before {
+    background: none;
+}
+.tab-menu ul li:hover, .tab-menu ul li.active {
+    background: none;
+}
+.kategori-electro {
+    background: #9687D9;
+}
+.kategori-electro .tab-title h2:before {
+    content: "\f1e6";
+}
+.kategori-fashion-pria {
+    background: #3c3839;
+}
+.kategori-fashion-pria .tab-title h2:before {
+    content: "\f222";
+}
+.kategori-fashion-wanita {
+    background: #f97c9e;
+}
+.kategori-fashion-wanita .tab-title h2:before {
+    content: "\f221";
+}
+.kategori-hp {
+    background: #2AC2EC;
+}
+.kategori-hp .tab-title h2:before {
+    content: "\f10b";
+}
+.kategori-hobi {
+    background: #3bbc9d;
+}
+.kategori-hobi .tab-title h2:before {
+    content: "\f1e3";
+}
+.kategori-komputer {
+    background: #f4b03a;
+}
+.kategori-komputer .tab-title h2:before {
+    content: "\f108";
+}
+.kategori-perawatan {
+    background: #ef4040;
+}
+.kategori-perawatan .tab-title h2:before {
+    content: "\f2cc";
+}
+.discount-label {
+    position: absolute;
+    background: #ef4040;
+    z-index: 20;
+    right: 10px;
+    top: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+button.compare {
+    background: none;
+    color: #454545;
+    border: 1px solid #454545;
+    display: inline-block;
+    float: none;
+}
+button.compare.active {
+    background: #f4a137;
+    color: white;
+    border: none;
+}
+.tt-menu {
+    background: white;
+    right: 0;
+}
+.tt-cursor, .tt-suggestion:hover {
+    background: lightgrey;
+}
+.tt-suggestion {
+    padding: 5px 10px;
+}
+#product-details button.compare {
+    background: #F4A137;
+    border: none;
+}
+.comment-list .ask-button {
+    border: none;
+    background: #F4A137;
+    color: white;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.comment-list .divider {
+    width: 100%;
+    margin: 15px 0;
+    height: 1px;
+    border-top: 1px dashed #ccc;
+}
+.cart-cash li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.cart-cash {
+    padding: 0;
+}
+.cart-total-wrapper {
+    background: white;
+}
+.cart-total-wrapper table {
+    width: 100%;
+}
+.cart-total-wrapper table tr td {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.cart-total-wrapper .title-cart-total {
+    margin: 0;
+}
+.biaya-layanan {
+    color: #f39200;
+}
+.total-pembayaran {
+    color: #e30613;
+}
+.cart-total-wrapper .buttons-cart {
+    margin-bottom: 0;
+}
+.cart-total-wrapper .buttons-cart a {
+    background: #e30613;
+}
+.cart-total-wrapper .buttons-cart a:hover, .cart-total-wrapper .wc-proceed-to-checkout a:hover {
+    background: #252525;
+}
+.cart-total-wrapper .wc-proceed-to-checkout a {
+    margin-top: 0;
+    height: 40px;
+    line-height: 40px;
+}
+.cart-total-wrapper .wc-proceed-to-checkout {
+    clear: none;
+}
+.upload-wrapper {
+    position: relative;
+    display: table;
+    margin: 15px auto 0 auto;
+}
+.upload-wrapper label {
+    padding: 10px 15px;
+    background: #f39200;
+    color: white;
+    cursor: pointer;
+}
+.upload-wrapper #upload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.jumlah-tagih {
+    color: #f39200 !important;
+    font-weight: 600;
+    margin-top: 5px !important;
+}
+.tagihan-pengingat {
+    text-align: center;
+    background: #84BC9C;
+    padding: 6px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    width: 80%;
+    display: block;
+}
+.tagihan-pengingat:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #84BC9C transparent;
+    left: 0;
+    right: 0;
+    top: -10px;
+    margin: 0 auto;
+}
+.alamat-dropdown .dropdown-menu {
+    max-height: 130px;
+    overflow-y: scroll;
+    padding-bottom: 0;
+    min-width: 250px;
+}
+.alamat-dropdown .dropdown-menu li a .address {
+    font-size: 12px;
+}
+.alamat-dropdown .dropdown-menu li:last-child {
+    margin-top: -9px;
+}
+.alamat-dropdown .dropdown-menu .tambah-alamat {
+    background: #F9BB6B;
+    color: white;
+    text-align: center;
+    padding: 6px 20px;
+}
+.alamat-dropdown .dropdown-toggle:focus, .alamat-dropdown .dropdown-toggle:hover {
+    background: none;
+}
+.alamat-dropdown .dropdown-toggle {
+    background: none;
+    color: #F4A137;
+    border: none;
+}
+.mini-products-list li .product-image img {
+    width: 100%;
+}
+.pilih-kurir {
+    width: 100px;
+}
+.btn-pilih-kurir {
+    background: none;
+    color: white;
+    border: 1px solid #F4A137;
+    color: #F4A137;
+}
+.btn-pilih-kurir.selected {
+    background: #F4A137;
+    color: white;
+}
+.table-kurir tr td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+.head-text .alamat-dropdown {
+    display: inline-block;
+}
+.btn-ship-done {
+    margin-top: 15px;
+    background: #F4A137;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 7px 20px;
+    font-size: 16px;
+}
+.konten-modal-kisel {
+    font-size: 14px;
+}
+.payment-accordion img {
+    height: initial;
+}
+.checkout-btn {
+    color: white;
+    background: #F4A137;
+}
+.btn-login {
+    background: #F4A137;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.form-action {
+    padding: 10px 25px;
+}
+label {
+    font-size: 14px;
+}
+.form-group input {
+    background: none;
+}
+.panel-login .panel-body {
+    padding: 0;
+    overflow: hidden;
+}
+.panel-login .panel-heading {
+    text-align: center;
+}
+.panel-login .panel-heading .panel-title {
+    font-size: 20px;
+}
+.form-fields {
+    border: none;
+}
+.form-action input, .form-fields input[type=radio] {
+    height: initial !important;
+    width: initial !important;
+    margin-right: 5px;
+}
+.alternate-login {
+    display: table;
+    margin: 15px auto;
+}
+.alternate-login li {
+    display: inline-block;
+}
+.alternate-login li .btn {
+    color: white;
+    text-align: center;
+    margin: 0 8px;
+}
+.alternate-login li .alt-fb {
+    background: #5975b1;
+}
+.alternate-login li .alt-google {
+    background: #dd5144;
+}
+.alternate-login li .alt-twitter {
+    background: #55acee;
+}
+.form-fields {
+    padding-top: 0;
+}
+.register-wrapper .nav {
+    border-bottom: none;
+}
+.nav-tabs li a {
+    padding: 10px;
+    font-size: 14px;
+}
+.nav-tabs li.active a, .nav-tabs li.active a:focus {
+    background: #f5f5f5 !important;
+}
+.header-top-left {
+    margin-top: 0;
+    line-height: 30px;
+}
+.header-top-right ul li a {
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.tab-menu {
+    top: 0;
+    bottom: 0;
+}
+.tab-menu ul li {
+    line-height: 60px;
+}
+.header-top-right ul li ul {
+    width: initial;
+}
+.sidebar-nav .user-profile {
+    background: #ebebeb;
+    padding: 15px;
+}
+.sidebar-nav .user-profile .user-email {
+    color: #F4A137
+}
+.sidebar-nav .user-profile .media .media-body {
+    position: relative;
+}
+.sidebar-nav .user-profile .media .media-body .pengaturan-ic {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: lightgray;
+    font-size: 16px;
+}
+.sidebar-nav li {
+    padding: 5px 15px;
+}
+.sidebar-nav li.divider {
+    padding: 0;
+}
+.user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: block;
+}
+.sidebar-nav li .page-heading {
+    padding: 0;
+}
+.user-photo img {
+    width: 100%;
+}
+.media-body, .media-left, .media-right {
+    vertical-align: middle;
+}
+.media-body .user-email {
+    margin-bottom: 0;
+}
+.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.tab-content.tab-content-rwy {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    background: #F4A137;
+}
+.form-fields {
+    border: none !important;
+}
+.container-custom {
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
